@@ -1,0 +1,16 @@
+/Volumes/D/Work/Automation/Framework/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Volumes/D/Work/Automation/Framework/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Volumes/D/Work/Automation/Framework/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Volumes/D/Work/Automation/Framework/bin/Debug/netcoreapp2.1/Automation.deps.json
+/Volumes/D/Work/Automation/Framework/bin/Debug/netcoreapp2.1/Automation.runtimeconfig.json
+/Volumes/D/Work/Automation/Framework/bin/Debug/netcoreapp2.1/Automation.runtimeconfig.dev.json
+/Volumes/D/Work/Automation/Framework/bin/Debug/netcoreapp2.1/Automation.dll
+/Volumes/D/Work/Automation/Framework/bin/Debug/netcoreapp2.1/Automation.pdb
+/Volumes/D/Work/Automation/Framework/obj/Debug/netcoreapp2.1/Automation.csproj.AssemblyReference.cache
+/Volumes/D/Work/Automation/Framework/obj/Debug/netcoreapp2.1/Automation.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/D/Work/Automation/Framework/obj/Debug/netcoreapp2.1/Automation.AssemblyInfoInputs.cache
+/Volumes/D/Work/Automation/Framework/obj/Debug/netcoreapp2.1/Automation.AssemblyInfo.cs
+/Volumes/D/Work/Automation/Framework/obj/Debug/netcoreapp2.1/Automation.csproj.CoreCompileInputs.cache
+/Volumes/D/Work/Automation/Framework/obj/Debug/netcoreapp2.1/Automation.dll
+/Volumes/D/Work/Automation/Framework/obj/Debug/netcoreapp2.1/Automation.pdb
+/Volumes/D/Work/Automation/Framework/obj/Debug/netcoreapp2.1/Automation.genruntimeconfig.cache
