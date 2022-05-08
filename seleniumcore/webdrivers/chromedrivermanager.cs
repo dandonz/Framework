@@ -11,9 +11,10 @@ namespace Automation.SeleniumCore
             //
             //How to use WebDriverManager: https://www.nuget.org/packages/WebDriverManager/
             //
+            ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.AddArguments("--headless");
             new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig(),"Latest",WebDriverManager.Helpers.Architecture.Auto);
-            this.driver = new ChromeDriver();
-            
+            this.driver = new ChromeDriver(chromeOptions); 
         }
     }
 }

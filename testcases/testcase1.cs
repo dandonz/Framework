@@ -7,6 +7,8 @@ namespace Automation.TestCases
 {
     public class TestCases1
     {
+        //https://swimburger.net/blog/dotnet/how-to-run-net-core-selenium-ui-tests-on-azure-devops-pipelines
+        //https://www.azuredevopslabs.com/labs/vstsextend/selenium/
         //https://q-automations.com/2020/08/16/selenium-with-azure-pipeline/
         //Todo@dandonz 
         IWebDriver driver; 
