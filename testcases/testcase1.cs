@@ -14,31 +14,22 @@ namespace Automation.TestCases
         IWebDriver driver; 
         DriverManager driverManager; 
         [Fact]
-        public void BingSearchTest()
+        public void CarpetCleaningLoginLinkClick()
         {
             driverManager = DriverManagerFactory.getDriverManager("CHROME");
             driver = driverManager.getWebDriver();
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10); 
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
-            try
-            {
-                driver.Navigate().GoToUrl("http://www.bing.com/");
-                IWebElement txtSearchBox = driver.FindElement(By.Id("sb_form_q"));
-                txtSearchBox.SendKeys("Deploy Selenium Automation Test to Azure");
+            driver.Navigate().GoToUrl("https://carpetcleaningact.com.au/");
+            IWebElement lnkLogin = driver.FindElement(By.ClassName("PriceBuilder_NavlinkCustom1__3xOP-"));
+            lnkLogin.Click();
+            System.Threading.Thread.Sleep(3000);
+            IWebElement txtUsername = driver.FindElement(By.ClassName("Input_InputElement__3sl1k"));
 
-
-                IWebElement form = driver.FindElement(By.Id("sb_form"));
-                System.Threading.Thread.Sleep(5000);
-                form.Submit();
-            }
-            catch(Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
-            finally{
-                driver.Close();
-                driver.Quit();
-            }
+            Assert.Equal("Mail Address", txtUsername.GetAttribute("placeholder"));
+            driver.Close();
+            driver.Quit();
+            driver.Dispose(); 
         }
     }
 }
