@@ -5,14 +5,6 @@ namespace Automation.SeleniumCore
     {
         protected IWebDriver driver; 
         protected abstract void createWebDriver();
-        public void quitWebDriver()
-        {
-            if(null != driver)
-            {
-                driver.Quit();
-                driver.Dispose(); 
-            }
-        }
         public IWebDriver getWebDriver()
         {
             if(null == driver)
@@ -21,5 +13,14 @@ namespace Automation.SeleniumCore
             }
             return driver; 
         }
+        public void quitWebDriver()
+        {
+            if(null != driver)
+            {
+                driver.Quit();
+                driver.Dispose(); 
+            }
+        }
+
     }
 }

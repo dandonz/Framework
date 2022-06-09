@@ -3,6 +3,7 @@ using Automation.SeleniumCore;
 using Xunit; 
 using System; 
 
+
 namespace Automation.TestCases
 {
     public class TestCases1
@@ -18,6 +19,8 @@ namespace Automation.TestCases
         {
             driverManager = DriverManagerFactory.getDriverManager("CHROME");
             driver = driverManager.getWebDriver();
+            
+            //Too short and should combine the using of explicit wait
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
             driver.Navigate().GoToUrl("https://carpetcleaningact.com.au/");
@@ -29,6 +32,7 @@ namespace Automation.TestCases
             Assert.Equal("Mail Address", txtUsername.GetAttribute("placeholder"));
             driver.Close();
             driver.Quit();
+            
             driver.Dispose(); 
         }
     }
