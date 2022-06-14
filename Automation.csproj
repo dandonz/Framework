@@ -11,5 +11,9 @@
     <PackageReference Include="Selenium.Support" Version="3.141.0"/>
     <PackageReference Include="Selenium.Chrome.WebDriver" Version="2.43.0"/>
     <PackageReference Include="WebDriverManager" Version="2.12.4"/>
+    <PackageReference Include="Selenium.WebDriver.GeckoDriver" Version="0.31.0.1"/>
+    <PackageReference Include="Selenium.WebDriver.MSEdgeDriver" Version="101.0.1210.47"/>
+    <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0"/>
+    <PackageReference Include="ExcelDataReader" Version="3.6.0"/>
   </ItemGroup>
 </Project>

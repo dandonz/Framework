@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/D/Work/Automation/Framework/Automation.csproj": {}
+    "/Volumes/D/Work/Automation/C#Selenium/Automation.csproj": {}
   },
   "projects": {
-    "/Volumes/D/Work/Automation/Framework/Automation.csproj": {
+    "/Volumes/D/Work/Automation/C#Selenium/Automation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/D/Work/Automation/Framework/Automation.csproj",
+        "projectUniqueName": "/Volumes/D/Work/Automation/C#Selenium/Automation.csproj",
         "projectName": "Automation",
-        "projectPath": "/Volumes/D/Work/Automation/Framework/Automation.csproj",
+        "projectPath": "/Volumes/D/Work/Automation/C#Selenium/Automation.csproj",
         "packagesPath": "/Users/0s/.nuget/packages/",
-        "outputPath": "/Volumes/D/Work/Automation/Framework/obj/",
+        "outputPath": "/Volumes/D/Work/Automation/C#Selenium/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -45,6 +45,14 @@
               "target": "Package",
               "version": "[5.2.1, )"
             },
+            "ExcelDataReader": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "ExcelDataReader.DataSet": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.3.0, )"
@@ -66,6 +74,14 @@
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.GeckoDriver": {
+              "target": "Package",
+              "version": "[0.31.0.1, )"
+            },
+            "Selenium.WebDriver.MSEdgeDriver": {
+              "target": "Package",
+              "version": "[101.0.1210.47, )"
             },
             "WebDriverManager": {
               "target": "Package",

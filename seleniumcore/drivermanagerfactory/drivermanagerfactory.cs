@@ -11,8 +11,11 @@ namespace Automation.SeleniumCore
                     driverManager = new ChromeDriverManager();
                     break; 
                 case "FIREFOX": 
-                    driverManager = null; 
+                    driverManager = new FirefoxDriverManager(); 
                     break; 
+                case "EDGE":
+                    driverManager = new EdgeDriverManager();
+                    break;
                 default:
                     driverManager = null; 
                     break; 

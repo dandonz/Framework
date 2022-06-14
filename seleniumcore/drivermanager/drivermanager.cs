@@ -21,6 +21,5 @@ namespace Automation.SeleniumCore
                 driver.Dispose(); 
             }
         }
-
     }
 }

@@ -8,6 +8,8 @@
     <Import Project="$(NuGetPackageRoot)microsoft.codecoverage/16.3.0/build/netstandard1.0/Microsoft.CodeCoverage.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.codecoverage/16.3.0/build/netstandard1.0/Microsoft.CodeCoverage.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk/16.3.0/build/netcoreapp1.0/Microsoft.NET.Test.Sdk.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk/16.3.0/build/netcoreapp1.0/Microsoft.NET.Test.Sdk.targets')" />
     <Import Project="$(NuGetPackageRoot)xunit.core/2.4.1/build/xunit.core.targets" Condition="Exists('$(NuGetPackageRoot)xunit.core/2.4.1/build/xunit.core.targets')" />
+    <Import Project="$(NuGetPackageRoot)selenium.webdriver.msedgedriver/101.0.1210.47/build/Selenium.WebDriver.MSEdgeDriver.targets" Condition="Exists('$(NuGetPackageRoot)selenium.webdriver.msedgedriver/101.0.1210.47/build/Selenium.WebDriver.MSEdgeDriver.targets')" />
+    <Import Project="$(NuGetPackageRoot)selenium.webdriver.geckodriver/0.31.0.1/build/Selenium.WebDriver.GeckoDriver.targets" Condition="Exists('$(NuGetPackageRoot)selenium.webdriver.geckodriver/0.31.0.1/build/Selenium.WebDriver.GeckoDriver.targets')" />
     <Import Project="$(NuGetPackageRoot)selenium.chrome.webdriver/2.43.0/build/Selenium.Chrome.WebDriver.targets" Condition="Exists('$(NuGetPackageRoot)selenium.chrome.webdriver/2.43.0/build/Selenium.Chrome.WebDriver.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.netcore.app/2.1.0/build/netcoreapp2.1/Microsoft.NETCore.App.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.app/2.1.0/build/netcoreapp2.1/Microsoft.NETCore.App.targets')" />
   </ImportGroup>
